@@ -64,7 +64,7 @@ class _PasswordValidatorPageState extends State<PasswordValidatorPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('Validador de Contraseña')),
+        title: const Text('Validador de Contraseña'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
